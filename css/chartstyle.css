@@ -1,0 +1,114 @@
+body {
+	background-color: #f0fbff;
+	overflow: scroll;
+}
+
+.main-container {
+	display: block;
+	border: 2px solid #777777;
+	border-radius: 4px;
+	height: 600px;
+	width: 700px;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.text-container {
+	display: block;
+	height: 300px;
+	width: 700px;
+	margin-top: 5px;
+	margin-left: 20px;
+}
+
+.chart-container {
+	position: relative;
+	align-content: center;
+	height: 400px;
+	width: 647px;
+	top: 5px;
+	left: 10px;
+}
+
+#chartVideo {
+	z-index: -1;
+	position: absolute;
+	top: 33px;
+	left: 52px;
+	width: 585px;
+}
+
+.emotion-readout {
+	background-color: #b3d9f8;
+	border-radius: 4px;
+	font-size: large;
+	width: 300px;
+	height: 40px;
+	margin: auto;
+	padding-top: 5px;
+	padding-left: 20px;
+	overflow: hidden;
+	box-shadow: 1px 1px 1px 1px rgba(31, 31, 31, 0.5) inset;
+}
+
+#emotionDisplay {
+	color: darkgreen;
+	font-weight: 600;
+	text-transform: capitalize;
+	text-align: right;
+	margin-right: 5px;
+	margin-top: 5px;
+}
+
+.timers {
+	background-color: #f8c9b3;
+	border-radius: 4px;
+	font-size: small;
+	width: 300px;
+	height: 40px;
+	margin: auto;
+	padding-top: 10px;
+	padding-left: 10px;
+	overflow: hidden;
+	box-shadow: 1px 1px 1px 1px rgba(31, 31, 31, 0.5) inset;
+}
+
+.controls {
+	color: rgba(0, 0, 0, .6);
+	margin-left: 3%;
+	margin-right: 3%;
+	padding: 20px;
+	text-align: center;
+}
+
+#startAnim {
+	display: inline-block;
+	margin-right: 5em;
+	background-color: rgb(89, 148, 64, 0.5);
+	text-shadow: 3px 2px 3px rgba(255, 255, 255, .2);
+	font-size: small;
+	border: 2px;
+	border-radius: 4px;
+	box-shadow: 1px 1px 1px 1px rgba(104, 104, 104, 0.5);
+}
+
+#stopAnim {
+	display: inline-block;
+	margin-right: 5em;
+	background-color: rgb(242, 96, 96, 0.5);
+	text-shadow: 3px 2px 3px rgba(255, 255, 255, .2);
+	font-size: small;
+	border: 2px;
+	border-radius: 4px;
+	box-shadow: 1px 1px 1px 1px rgba(104, 104, 104, 0.5);
+}
+
+#resetAnim {
+	display: inline-block;
+	background-color: rgb(95, 189, 239, 0.5);
+	text-shadow: 3px 2px 3px rgba(255, 255, 255, .2);
+	font-size: small;
+	border: 2px;
+	border-radius: 4px;
+	box-shadow: 1px 1px 1px 1px rgba(104, 104, 104, 0.5);
+}
